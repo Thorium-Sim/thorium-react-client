@@ -3,9 +3,22 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "apollo-cache-hermes": "^0.8.6",
+    "apollo-cache-inmemory": "^1.3.11",
+    "apollo-client": "^2.4.7",
+    "apollo-link": "^1.2.4",
+    "apollo-link-error": "^1.1.2",
+    "apollo-link-http": "^1.5.7",
+    "apollo-link-ws": "^1.0.10",
+    "apollo-utilities": "^1.0.26",
+    "graphql": "^14.0.2",
+    "graphql-tag": "^2.10.0",
+    "random-words": "^1.1.0",
     "react": "^16.6.3",
+    "react-apollo": "^2.3.1",
     "react-dom": "^16.6.3",
-    "react-scripts": "2.1.1"
+    "react-scripts": "2.1.1",
+    "subscriptions-transport-ws": "^0.9.15"
   },
   "scripts": {
     "start": "react-scripts start",
