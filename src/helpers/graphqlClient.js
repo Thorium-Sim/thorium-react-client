@@ -30,7 +30,7 @@ export function getClient(address, port) {
       return false;
     }
     const wsLink = new WebSocketLink({
-      uri: `ws://${address}:${parseInt(port, 10) + 1}/subscriptions`,
+      uri: `ws://${address}:${parseInt(port, 10)}/graphql`,
       options: {
         reconnect: true
       },
